@@ -22,13 +22,3 @@ Copy `.env.example` to `.env.local`, add the project URL and anon key, then run 
 
 ## Before launch
 Replace `hello@wavemansolutions.com` with the final business email and add verified testimonials, certifications and partner status only where formally authorised.
-<<<<<<< HEAD
-
-## Responsive services update
-
-- Every service card now opens a dedicated `/services/[slug]` page.
-- Phones automatically receive a purpose-built mobile homepage through CSS media queries.
-- Internal pages include a touch-friendly hamburger navigation menu.
-- Service detail pages are statically generated for fast Vercel deployment.
-=======
->>>>>>> bec125cf2c9338e3f18ddfff8c0d5e06f00567f4
