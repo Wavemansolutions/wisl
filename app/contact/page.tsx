@@ -1,0 +1,7 @@
+import ExactPageShell from "@/components/ExactPageShell";
+import LeadForm from "@/components/LeadForm";
+
+export default function Contact(){return <ExactPageShell>
+  <section className="inner-hero"><div className="inner-copy"><p className="inner-kicker">CONTACT WAVEMAN</p><h1>Let’s discuss the outcome<br/><span>your business needs.</span></h1><p>Tell us about your environment, priorities and preferred timeline. We will review the enquiry and recommend a practical next step.</p><div className="contact-points"><span>✓ Confidential discovery</span><span>✓ Project or managed support</span><span>✓ International remote delivery</span></div></div><div className="contact-orbit"><div className="orbit-dot d1"/><div className="orbit-dot d2"/><div className="orbit-dot d3"/><span>LET’S<br/>CONNECT</span></div></section>
+  <section className="inner-content contact-content"><div className="contact-info"><p className="inner-section-kicker">BUSINESS ENQUIRIES</p><h2>Start with a focused consultation</h2><p>Provide enough context for us to understand your requirements. A representative can then confirm fit, scope and the appropriate next step.</p><div className="contact-list"><div><b>Business email</b><span>hello@wavemansolutions.com</span></div><div><b>Service coverage</b><span>International remote delivery</span></div><div><b>Engagement types</b><span>Projects · Retainers · Technical advisory</span></div></div></div><LeadForm/></section>
+</ExactPageShell>}

@@ -1,0 +1,9 @@
+import ExactPageShell from "@/components/ExactPageShell";
+import Link from "next/link";
+const resources=[
+["Technology Readiness Checklist","A practical checklist for reviewing support, security, backup, connectivity and cloud readiness."],
+["Cybersecurity Baseline Guide","Key controls small and medium organisations should prioritise before investing in advanced tools."],
+["Microsoft 365 Administration Review","Questions to assess accounts, permissions, email protection, sharing and recovery settings."],
+["Automation Opportunity Worksheet","A simple framework for identifying repetitive processes suitable for workflow automation."],
+];
+export default function Resources(){return <ExactPageShell><section className="inner-hero"><div className="inner-copy"><p className="inner-kicker">INSIGHTS & RESOURCES</p><h1>Practical guidance for<br/><span>better technology decisions.</span></h1><p>Executive-friendly resources designed to help businesses understand risk, prioritise improvements and prepare for productive technical conversations.</p></div><div className="service-radar"><div className="radar-ring r1"/><div className="radar-ring r2"/><div className="radar-ring r3"/><div className="radar-core">i</div></div></section><section className="inner-content"><div className="section-heading-row"><div><p className="inner-section-kicker">RESOURCE LIBRARY</p><h2>Clear information without unnecessary complexity</h2></div><p>Resource downloads can be connected to Supabase or your preferred email platform in the next release.</p></div><div className="resource-grid">{resources.map(([title,desc],i)=><article className="inner-card resource-card" key={title}><span>GUIDE {String(i+1).padStart(2,"0")}</span><h3>{title}</h3><p>{desc}</p><Link href="/contact">Request this resource ↗</Link></article>)}</div></section></ExactPageShell>}
