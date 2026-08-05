@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+<<<<<<< HEAD
 import MobileHome from "@/components/MobileHome";
+=======
+>>>>>>> bec125cf2c9338e3f18ddfff8c0d5e06f00567f4
 
 const hotspots = [
   { label: "Home", href: "/", className: "hotspot hotspot-home" },
@@ -17,9 +20,13 @@ const hotspots = [
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <>
       <MobileHome />
       <main className="exact-page">
+=======
+    <main className="exact-page">
+>>>>>>> bec125cf2c9338e3f18ddfff8c0d5e06f00567f4
       <div className="exact-stage" aria-label="Waveman Integrated Solutions homepage">
         <Image
           src="/waveman-exact-home.png"
@@ -57,6 +64,9 @@ export default function Home() {
         <div id="services" className="services-anchor" aria-hidden="true" />
       </div>
     </main>
+<<<<<<< HEAD
     </>
+=======
+>>>>>>> bec125cf2c9338e3f18ddfff8c0d5e06f00567f4
   );
 }
